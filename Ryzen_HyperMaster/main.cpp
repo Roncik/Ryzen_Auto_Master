@@ -31,7 +31,6 @@ void HWNDmsg_ClickKey(HWND windowhandle, int VK_code)
 
 void HWNDmsg_Click_n_times(HWND windowhandle, int VK_code, int n)
 {
-    SetFocus(windowhandle);
     for (int i = 0; i < n; i++)
     {
         HWNDmsg_ClickKey(windowhandle, VK_code);
