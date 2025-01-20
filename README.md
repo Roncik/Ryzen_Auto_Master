@@ -4,13 +4,13 @@ Program to automatically start AMD Ryzen Master software and apply either Profil
 
 ## Usage
 
-Modify the path in main.cpp to the path of the Ryzen Master executable.
+-Modify the path in main.cpp to the path of the Ryzen Master executable.
 
-Build using Visual Studio
+-Build using Visual Studio.
 
-Launch the executable with argument 1 for Profile 1, argument 2 for Profile 2, no argument for default which is Profile 1
+-Launch the executable with argument 1 for Profile 1, argument 2 for Profile 2, no argument for default which is Profile 1.
 
-You can create a task in windows Task Scheduler for this executable to run on user login
+-You can create a task in windows Task Scheduler for this executable to run on user login.
 
 ## How it works
 
