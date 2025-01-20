@@ -87,7 +87,7 @@ static INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpC
     }
     
     Sleep(2000);
-    main_window = FindWindowA(NULL, "AMD RYZEN MASTER");
+    main_window = FindWindowA(NULL, "AMD RYZEN MASTER"); //Just to make sure
 
     if (selected_profile == 1)
     {
