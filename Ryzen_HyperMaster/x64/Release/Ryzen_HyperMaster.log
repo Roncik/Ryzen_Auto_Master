@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\jakub\source\repos\Ryzen_HyperMaster\Ryzen_HyperMaster\main.cpp(41,19): warning C4008: 'WinMain': 'static' attribute ignored
+  Generating code
+  3 of 4 functions (75.0%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Ryzen_HyperMaster.vcxproj -> C:\Users\jakub\source\repos\Ryzen_HyperMaster\x64\Release\Ryzen_HyperMaster.exe
