@@ -68,18 +68,16 @@ static INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpC
     //Start Ryzen Master software
     start_executable(path, si, pi);
 
-    //Get popup window handle
+
     HWND popup_window = NULL;
     HWND main_window = NULL;
-    while (!popup_window)
+    while (!popup_window) //Get popup window handle
     {
         popup_window = FindWindowA(NULL, "AMD RYZEN MASTER");
-        main_window = FindWindowA(NULL, "AMD RYZEN MASTER");
         Sleep(10);
     }
 
     //Send message to the window
-    //SetForegroundWindow(popup_window);
     HWNDmsg_ClickKey(popup_window, VK_RETURN);
 
     while (!main_window && main_window == popup_window) //Get the main window
